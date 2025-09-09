@@ -1,0 +1,108 @@
+/* Fondo general con un suave degradado */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f5f5, #e6e6e6); /* Gris suave */
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* Caja del formulario */
+.login-box {
+  background: #fff;
+  padding: 40px 35px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 36, 156, 0.15); /* sombra con Azul1 */
+  text-align: center;
+  width: 350px;
+}
+
+/* Logo */
+.login-logo {
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+/* Título */
+.login-box h2 {
+  color: #00249C; /* Azul1 */
+  margin-bottom: 5px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+/* Subtítulo */
+.login-subtitle {
+  font-size: 0.9rem;
+  color: #40CEE4; /* Azul2 */
+  margin-bottom: 25px;
+}
+
+/* Campos de entrada */
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  transition: 0.3s ease;
+}
+
+.input-group:focus-within {
+  border-color: #40CEE4; /* Azul2 cuando enfocado */
+  box-shadow: 0 0 6px rgba(64, 206, 228, 0.4);
+}
+
+.input-group .icon {
+  margin-right: 10px;
+  color: #00249C; /* Azul1 */
+  font-size: 1.2rem;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Botón de login */
+.btn-login {
+  width: 100%;
+  background: #00249C; /* Azul1 */
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-login:hover {
+  background: #40CEE4; /* Azul2 */
+  color: #00249C;
+}
+
+/* Estilos opcionales para links extras */
+.login-footer {
+  margin-top: 15px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.login-footer a {
+  color: #C6007E; /* Rojo1 */
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.login-footer a:hover {
+  color: #E280BE; /* Rojo2 */
+}

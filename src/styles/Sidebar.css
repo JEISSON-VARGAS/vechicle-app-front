@@ -1,0 +1,109 @@
+/* Sidebar general */
+.sidebar {
+  width: 260px;
+  height: 100vh;
+  background-color: #C5C5C5; /* Azul corporativo */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.sidebar-logo img {
+  width: 160px;
+  height: auto;
+  margin-bottom: 60px;
+}
+
+/* Navegación */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Links */
+.nav-link {
+  position: relative;
+  display: block;
+  padding: 16px 25px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Fondo animado */
+.nav-link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #40CEE4; /* Azul secundario */
+  border-radius: 12px;
+  z-index: 0;
+  transition: width 0.4s ease;
+}
+
+/* Hover animación */
+.nav-link:hover::before {
+  width: 100%;
+}
+
+.nav-link span {
+  position: relative;
+  z-index: 1;
+  transition: color 0.3s ease;
+}
+
+/* Hover del texto */
+.nav-link:hover span {
+  color: #00249C; /* Contraste sobre fondo azul claro */
+  font-weight: bold;
+}
+
+/* Activo */
+.nav-link.active {
+  background-color: #C6007E; /* Rojo corporativo */
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Footer y botón logout */
+.sidebar-footer {
+  width: 100%;
+  padding: 0 20px 30px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.logout-button {
+  width: 100%;
+  padding: 14px 25px;
+  background-color: #C6007E; /* Rojo corporativo */
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover logout */
+.logout-button:hover {
+  background-color: #E280BE; /* Rojo secundario */
+  color: #00249C;
+  font-weight: bold;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}

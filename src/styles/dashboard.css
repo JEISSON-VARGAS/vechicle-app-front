@@ -1,0 +1,43 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+}
+
+.dashboard-main {
+  flex: 1; /* Ocupa todo el espacio restante junto al sidebar */
+  padding: 0;
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.welcome-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 60px 80px; /* más espacio para que no se vea pequeño */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  max-width: 600px; /* limita el ancho para pantallas grandes */
+  width: 90%;       /* ocupa 90% del ancho disponible si es pequeño */
+}
+
+.welcome-logo {
+  width: 150px; /* un poco más grande */
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.welcome-container h1 {
+  color: #00249C; /* Azul 1 */
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+
+.welcome-container p {
+  color: #40CEE4; /* Azul 2 */
+  margin: 0;
+  font-size: 20px;
+}

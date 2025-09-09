@@ -1,0 +1,103 @@
+/* Contenedor general */
+.vehicles-table-container {
+  width: 95%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  font-family: 'Arial', sans-serif;
+  overflow-x: auto;
+}
+
+/* Título de la tabla */
+.table-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #C6007E;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Botón agregar */
+.btn-add {
+  display: inline-flex;        /* alineado a la izquierda */
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;           /* más pequeño */
+  background-color: #C6007E;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;             /* tamaño de texto más pequeño */
+  transition: 0.3s;
+  margin-bottom: 20px;         /* espacio debajo del botón */
+}
+
+.btn-add:hover {
+  background-color: #a50065;
+}
+
+/* Tabla */
+.vehicles-table {
+  width: 100%;
+  min-width: 800px;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Encabezado */
+.vehicles-table th {
+  background-color: #C6007E;
+  color: #fff;
+  padding: 15px 12px;
+  border: 1px solid #ffb3d1; /* líneas del encabezado */
+  font-size: 1.2rem;
+}
+
+/* Filas */
+.vehicles-table td {
+  padding: 12px 10px;
+  border: 1px solid #ffb3d1; /* líneas visibles */
+  background-color: #fff; /* fondo blanco */
+  color: #333; /* texto oscuro */
+}
+
+/* Hover opcional suave */
+.vehicles-table tbody tr:hover td {
+  background-color: #fff7fb; /* muy sutil */
+}
+
+/* Botones de acción con iconos */
+.btn-edit,
+.btn-delete {
+  padding: 6px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent; /* transparente para mostrar solo el icono */
+}
+
+.btn-edit img,
+.btn-delete img {
+  width: 22px; /* tamaño del icono */
+  height: 22px;
+}
+
+/* Hover suave para los iconos */
+.btn-edit:hover img {
+  filter: brightness(0.85);
+}
+
+.btn-delete:hover img {
+  filter: brightness(0.85);
+}
