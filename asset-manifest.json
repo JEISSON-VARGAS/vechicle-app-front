@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/vechicle-app-front/static/css/main.e7a489e2.css",
+    "main.js": "/vechicle-app-front/static/js/main.dc596dd5.js",
+    "static/js/453.e97d3805.chunk.js": "/vechicle-app-front/static/js/453.e97d3805.chunk.js",
+    "static/media/Telefono-01.png": "/vechicle-app-front/static/media/Telefono-01.838c2c9bc91624306bf8.png",
+    "static/media/Imagologotipo_motion.svg": "/vechicle-app-front/static/media/Imagologotipo_motion.ee3c6b46e375202a76e776f59278bd9c.svg",
+    "static/media/Icon_puntoubicacion.svg": "/vechicle-app-front/static/media/Icon_puntoubicacion.09641197c50c1366be22c562903c6e40.svg",
+    "static/media/Icon_cancelar.svg": "/vechicle-app-front/static/media/Icon_cancelar.2eba86d45386a369acf96052d9530d2f.svg",
+    "static/media/Icon_editar1.svg": "/vechicle-app-front/static/media/Icon_editar1.f80415a61cbd5290a7bced6209d5721a.svg",
+    "index.html": "/vechicle-app-front/index.html",
+    "static/media/Icon_confirmar.svg": "/vechicle-app-front/static/media/Icon_confirmar.2bfc03df5bfb6f1767b081cbd30571a3.svg",
+    "static/media/Icon_persona.svg": "/vechicle-app-front/static/media/Icon_persona.d57ec35466ef38e09529d2b805b26674.svg",
+    "static/media/Icon_vehiculo.svg": "/vechicle-app-front/static/media/Icon_vehiculo.f109894dba206d0282e68bff06f0f025.svg",
+    "static/media/Icon_crear.svg": "/vechicle-app-front/static/media/Icon_crear.ee803a8f8524d84c3e8210ad80ec3206.svg",
+    "static/media/Icon_eliminar1.svg": "/vechicle-app-front/static/media/Icon_eliminar1.2f5d4dcab13bad0045b35c04e3bd83cc.svg",
+    "main.e7a489e2.css.map": "/vechicle-app-front/static/css/main.e7a489e2.css.map",
+    "main.dc596dd5.js.map": "/vechicle-app-front/static/js/main.dc596dd5.js.map",
+    "453.e97d3805.chunk.js.map": "/vechicle-app-front/static/js/453.e97d3805.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7a489e2.css",
+    "static/js/main.dc596dd5.js"
+  ]
+}
