@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Importa Link
 import "../styles/home.css";
 import logo from "../assets/Imagologotipo_motion.svg";   // Logo
 import ilustracion from "../assets/Telefono-01.png";
@@ -9,7 +10,10 @@ export default function Home() {
       {/* Header con logo */}
       <header className="home-header">
         <img src={logo} alt="Logo" className="home-logo" />
-        <a href="/login" className="btn-login-home">Iniciar Sesión</a>
+        {/* Cambiamos <a> por <Link> */}
+        <Link to="/login" className="btn-login-home">
+          Iniciar Sesión
+        </Link>
       </header>
 
       {/* Contenido principal */}

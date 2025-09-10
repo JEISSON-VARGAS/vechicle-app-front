@@ -2,7 +2,7 @@
   "name": "vehicles-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JEISSON-VARGAS.github.io/FULL-STACK-FRONT/vehicles-app",
+  "homepage": "https://JEISSON-VARGAS.github.io/vechicle-app-front",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",

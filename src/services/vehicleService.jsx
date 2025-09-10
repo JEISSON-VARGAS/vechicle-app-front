@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api"; // incluye /api
+const API_URL = "https://full-stack-back-ljrn.onrender.com/api"; // incluye /api
 
 export const getVehicles = async () => {
   try {

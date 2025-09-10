@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Login from "./pages/login";
 import Dashboard from "./pages/dashboard";
@@ -14,12 +14,11 @@ export default function App() {
       {showSplash ? (
         <SplashScreen onFinish={() => setShowSplash(false)} />
       ) : (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Router>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/dashboard" element={<Dashboard />}>
-              {/* Ruta por defecto dentro del dashboard */}
               <Route
                 index
                 element={
@@ -37,7 +36,7 @@ export default function App() {
               <Route path="vehicles" element={<VehiclesTable />} />
             </Route>
           </Routes>
-        </BrowserRouter>
+        </Router>
       )}
     </>
   );
