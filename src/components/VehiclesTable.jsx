@@ -75,7 +75,6 @@ export default function VehiclesTable() {
       <table className="vehicles-table">
         <thead>
           <tr>
-            <th>ID</th>
             <th>Marca</th>
             <th>Sucursal</th>
             <th>Aspirante</th>
@@ -85,7 +84,6 @@ export default function VehiclesTable() {
         <tbody>
           {vehicles.map((v) => (
             <tr key={v.id}>
-              <td>{v.id}</td>
               <td>{v.car_brand}</td>
               <td>{v.arrival_location}</td>
               <td>{v.applicant}</td>
